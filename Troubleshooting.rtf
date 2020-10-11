@@ -1,0 +1,16 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2512
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Troubleshooting guide:\
+\
+if the Arduino serial monitor is spitting out garbage data and question marks, check the baud rate on the monitor and make sure it matches what is set in the code. \
+\
+If the motor is jerking forwards/backwards, stop the code (run kill), reverse the motor and make sure the slides are in the correct orientation and haven\'92t rotated too far. Usually indicates something is catching and the motor can\'92t move forward.\
+\
+If the motor is grinding, stop and investigate. The pinion gear is probably caught  or not making decent contact with the teeth of rack. \
+\
+If there is a problem uploading the code to the board, stop, and unplug the Arduino. Feel the processor (ATMega238p) with your finger and take notice of the temperature. If the processor is not too hot, continue. If the processor is seemingly really hot, you may remove the Arduino from the breadboard and inspect for damage. You can also unplug the pin connecting the 5V on the Arduino to the VCC on the current sensor (INA219).  The current going through the current sensor is exceeding the limit and too much current is flowing into the Arduino. When sufficiently cool, you may continue. }
