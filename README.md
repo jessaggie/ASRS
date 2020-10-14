@@ -86,5 +86,5 @@ Guide for the motor driver:
 https://learn.adafruit.com/adafruit-drv8871-brushed-dc-motor-driver-breakout
 
 
-Email: Jesse@arcbyt.com or jessaggie@tamu.edu with any issues. 
+Email: jessaggie@tamu.edu or jorbaustin@gmail.com with any issues. 
 
